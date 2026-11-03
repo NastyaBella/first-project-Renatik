@@ -1,0 +1,33 @@
+body{
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: antiquewhite;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: darkmagenta;
+
+}
+
+p{
+    font-size: 35px;
+    color: rgb(185, 92, 185);
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+img{
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border: solid; 
+    border-color: darkmagenta;
+    border-style: ridge;
+}
+
+.Tortiki3{
+    display: grid;
+}

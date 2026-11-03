@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang>
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Заказ торта</title>
+  <link rel="stylesheet" href="./ZakazTorta.css">
+</head>
+
+<body vlink="yellow">
+  <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="form">
+    <h1>Личные данные</h1>
+    <input required type="text" name="name" placeholder="Введите свое имя" class="input" id="name"
+      style="display: flex; margin-bottom: 15px;">
+    <input required type="text" name="surname" placeholder="Введите свою фамилию" class="input" id="surname"
+      style="display: flex; margin-bottom: 15px;">
+    <input required type="email" name="email" placeholder="Введите свою электронную почту" class="input"
+      style="display: flex; margin-bottom: 15px;">
+    <input required type="tel" name="phone" placeholder="Введите номер телефона" class="input" id="tel"
+      style="display: flex; margin-bottom: 15px;">
+    <h1>Опишите ваш будущий торт</h1>
+    <textarea class="required" name="descr" placeholder="Опишите более подробно ваш будущий торт"
+      style="width: 50%; height: 300px;"></textarea>
+    <h1>Также вы можете приложить фотографии:</h1>
+    <input type="file" name="f1" style="display: flex; margin-bottom: 15px;">
+    <input type="file" name="f2" style="display: flex; margin-bottom: 15px;">
+    <input type="file" name="f3" style="display: flex; margin-bottom: 15px;">
+    <button type="submit" class="btn btn-submit">
+      Отправить заказ
+    </button>
+  </form>
+
+
+</body>
+
+</html>
